@@ -435,7 +435,6 @@ body {
   width: 100%; }
 
 .full {
-  max-width: 3000px;
   padding: 0;
   margin: 0 auto; }
   .full img {
@@ -1033,15 +1032,16 @@ body:hover .cursor {
       margin: 40px 0; } }
 .remy .problem {
   background: #ebeef1;
+  padding: 50px 0;
   margin: 0; }
   .remy .problem .subtitle {
-    margin-top: 20px;
     margin-bottom: 40px; }
+  .remy .problem .container.double {
+    margin-bottom: 0; }
 .remy .initial-goal {
   background: #b6d9f8;
+  padding: 50px 0;
   margin: 0; }
-  .remy .initial-goal .group {
-    margin-top: 50px; }
 .remy .main-img .big-img {
   width: 100%; }
 .remy .video {
