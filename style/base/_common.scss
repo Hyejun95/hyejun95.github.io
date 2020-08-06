@@ -1,0 +1,32 @@
+html, body {height:100%;}
+
+body {
+    font-family: 'Raleway', sans-serif, 'Noto Sans KR', sans-serif;
+    word-break: keep-all;
+    cursor: none;
+}
+
+#wrap {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    min-height: 100vh;
+}
+
+.font-playfair{
+    font-family: 'Playfair Display SC', serif;
+}
+.raleway{
+    font-family: 'Raleway', sans-serif, 'Noto Sans KR', sans-serif;
+    font-weight: 200;
+}
+
+.source-code{
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 400;
+}
+.chivo{
+    font-family: 'Chivo', sans-serif;
+    font-weight: 700;
+}

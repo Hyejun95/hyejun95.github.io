@@ -1,0 +1,190 @@
+.section{
+  &.space-bottom{
+    margin: 120px 0;
+    @include screen-md{
+      margin: 80px 0;
+    }
+    @include screen-sm{
+      margin: 40px 0;
+    }
+  }
+}
+.video{
+  video{
+    width: 100%;
+  }
+}
+
+.full{
+  max-width: 3000px;
+  padding: 0;
+  margin: 0 auto;
+
+  img{
+    width: 100%;
+  }
+
+
+}
+.container {
+  max-width: 1030px;
+  padding: 0 15px;
+  margin: 0 auto;
+
+  &.c600 {
+    max-width: 630px;
+  }
+  &.c900 {
+    max-width: 930px;
+    &.double{
+    display: flex;
+      .side{
+        margin-top: 30px;
+        max-width: 280px;
+      }
+      .half{
+        max-width: 420px;
+      }
+
+    }
+
+    .group {
+      position: relative;
+      max-width: 600px;
+    }
+    @include screen-sm {
+      max-width: 100%;
+
+    }
+
+  }
+
+  &.c1100 {
+    max-width: 1100px;
+  }
+
+  @include screen-md {
+    max-width: 798px;
+  }
+  @include screen-sm {
+    max-width: 100%;
+
+  }
+
+  &.space {
+    margin-bottom: 100px;
+  }
+
+  &.double {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+
+    .col-1 {
+      width: 80%;
+      margin-bottom: 100px;
+
+      @include screen-sm {
+        width: 100%;
+      }
+    }
+
+    .col-1-sm {
+      width: 60%;
+      @include screen-sm {
+        width: 100%;
+      }
+    }
+
+    .col-2 {
+      width: 30%;
+      @include screen-sm {
+        width: 100%;
+      }
+    }
+
+    .col-3 {
+      width: 50%;
+      @include screen-sm {
+        width: 100%;
+      }
+    }
+
+    .col-center {
+      width: 80%;
+      @include screen-sm {
+        width: 100%;
+      }
+    }
+  }
+
+  &.triple {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+
+    .col-1 {
+      width: 20%;
+      @include screen-sm {
+        width: 100%;
+      }
+    }
+
+    .col-2 {
+      width: 70%;
+      @include screen-sm {
+        width: 100%;
+      }
+    }
+
+  }
+
+
+  &.block {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    .col-1 {
+      width: 70%;
+      @include screen-sm {
+        width: 100%;
+      }
+    }
+
+    .col-2 {
+      width: 30%;
+      @include screen-sm {
+        width: 100%;
+      }
+    }
+
+    .col-half {
+      width: 50%;
+      @include screen-sm {
+        width: 100%;
+      }
+    }
+  }
+}
+
+
+.container2 {
+  max-width: 1030px;
+  padding: 50px 15px;
+  margin: 0 auto;
+  @include screen-md {
+    max-width: 798px;
+  }
+  @include screen-sm {
+    max-width: 100%;
+
+  }
+
+}
+.bubble-video{
+  display: flex;
+}
+

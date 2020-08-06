@@ -1,0 +1,27 @@
+#footer {
+    background-color: #0c0104;
+    color: #bbbbbb;
+    margin-top: 100px;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .social {
+        a {
+            color: #fff;
+            padding: 0 10px;
+        }
+    }
+
+    .name {
+        font-size: 4em;
+        padding: 0em 3em;
+    }
+
+    .copyright {
+        text-align: right;
+    }
+
+}
+

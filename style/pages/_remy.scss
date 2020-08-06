@@ -1,0 +1,71 @@
+.remy {
+  .space-bottom {
+    margin: 120px 0;
+    @include screen-md {
+      margin: 80px 0;
+    }
+    @include screen-sm {
+      margin: 40px 0;
+    }
+  }
+
+
+  .problem {
+    background: #ebeef1;
+
+    .subtitle {
+      margin-top: 20px;
+      margin-bottom: 40px;
+    }
+
+    margin: 0;
+  }
+
+  .initial-goal {
+    background: #b6d9f8;
+    .group {
+      margin-top: 50px;
+    }
+
+    margin: 0;
+  }
+
+  .main-img {
+    .big-img{
+    width: 100%;
+    }
+  }
+
+  .video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .userflow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .architecture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  a.link {
+    color: #13e6ee;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  a.link:hover {
+    text-decoration-line: underline;
+  }
+
+}
+s
+[data-aos=fade-up] {
+  transform: translate3d(0, 30px, 0);
+}
