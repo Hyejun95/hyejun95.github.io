@@ -1138,6 +1138,11 @@ s
 .seefit .cont .p5 {
   font-style: italic; }
 
+.nike .title, .nike .subtitle {
+  color: darkblue; }
+.nike .cont .p5 {
+  font-style: italic; }
+
 .seniar .title, .seniar .subtitle {
   color: orange; }
 
